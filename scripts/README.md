@@ -1,0 +1,3 @@
+- [EquivarianceTest](./EquivarianceTest/): Equivariance test under Lorentz boosts on top tagging dataset.
+- [QGTaggingROC](./QGTaggingROC/): ROC curves for quark-gluon tagging.
+- [TopTaggingROC](./TopTaggingROC/): ROC curves for top tagging.

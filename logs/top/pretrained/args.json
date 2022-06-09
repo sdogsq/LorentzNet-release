@@ -1,0 +1,21 @@
+{
+    "exp_name": "pretrained",
+    "test_mode": false,
+    "batch_size": 32,
+    "num_train": -1,
+    "epochs": 35,
+    "warmup_epochs": 5,
+    "c_weight": 0.005,
+    "seed": 99,
+    "log_interval": 100,
+    "val_interval": 1,
+    "datadir": "./data/top",
+    "logdir": "./logs/top",
+    "dropout": 0.2,
+    "lr": 0.001,
+    "n_hidden": 72,
+    "n_layers": 6,
+    "num_workers": 4,
+    "weight_decay": 0.01,
+    "local_rank": 0
+}
