@@ -5,7 +5,7 @@
 
 <b>Shiqi Gong, Qi Meng, Jue Zhang, Huilin Qu, Congqiao Li, Sitian Qian, Weitao Du, Zhi-Ming Ma, Tie-Yan Liu</b>
 
-https://arxiv.org/abs/2201.08187
+https://link.springer.com/article/10.1007/JHEP07(2022)030
 
 **Abstract:** Deep learning methods have been increasingly adopted to study jets in particle physics. Since symmetry-preserving behavior has been shown to be an important factor for improving the performance of deep learning in many applications, Lorentz group equivariance - a fundamental spacetime symmetry for elementary particles - has recently been incorporated into a deep learning model for jet tagging. However, the design is computationally costly due to the analytic construction of high-order tensors. In this article, we introduce LorentzNet, a new symmetry-preserving deep learning model for jet tagging. The message passing of LorentzNet relies on an efficient Minkowski dot product attention. Experiments on two representative jet tagging benchmarks show that LorentzNet achieves the best tagging performance and improves significantly over existing state-of-the-art algorithms. The preservation of Lorentz symmetry also greatly improves the efficiency and generalization power of the model, allowing LorentzNet to reach highly competitive performance when trained on only a few thousand jets.
 
@@ -140,10 +140,18 @@ Scripts and tagging accuracies under Lorentz transformations with different $\be
 If you find this work helpful, please cite our paper:
 ```
 @article{gong2022efficient,
-  title={An Efficient Lorentz Equivariant Graph Neural Network for Jet Tagging},
   author={Gong, Shiqi and Meng, Qi and Zhang, Jue and Qu, Huilin and Li, Congqiao and Qian, Sitian and Du, Weitao and Ma, Zhi-Ming and Liu, Tie-Yan},
-  journal={arXiv preprint arXiv:2201.08187},
-  year={2022}
+  title={An efficient Lorentz equivariant graph neural network for jet tagging},
+  journal={Journal of High Energy Physics},
+  year={2022},
+  month={Jul},
+  day={05},
+  volume={2022},
+  number={7},
+  pages={30},
+  issn={1029-8479},
+  doi={10.1007/JHEP07(2022)030},
+  url={https://doi.org/10.1007/JHEP07(2022)030}
 }
 ```
 
